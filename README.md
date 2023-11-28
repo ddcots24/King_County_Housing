@@ -19,7 +19,7 @@ The majority of the dataset pertained to houses sold in King County, Washington,
 
 
 
-From the following graphic we were able to identify square feet above and square feet of living have the greatest correlation being .9. I took out square feet of living to prevent from overfitting my model.
+From the following graphic we were able to identify square feet above and square feet of living have a very high correlation of 90%. I took out square feet of living to prevent from overfitting my model.
 
 
 ![image](https://github.com/ddcots24/King_County_Housing/assets/131708046/d81ec703-d1df-4f41-961f-cf2b8d33743a)
