@@ -15,27 +15,35 @@ A data source that provided the following information; date, number of floors, w
 ## Methods
 The majority of the dataset pertained to houses sold in King County, Washington, but there were several outliers that needed to be addressed. After focusing on just King County I performed a heatmap to show any correlations between the different features and prices. 
 
-![image](https://github.com/ewestrich/King-County-House-Sales/assets/131708046/5fee393e-e31a-4947-98b6-e9401a25fff4)
+![image](https://github.com/ddcots24/King_County_Housing/assets/131708046/12a18675-31a1-46ab-8738-668929bd4a88)
+
 
 
  From the following graphic we were able to identify number of bathrooms and square feet of living has the greatest correlation to the price of the house. The number of bathrooms has a .49 correlation while Sqft_living has a .62 correlation on our heatmap. 
 
-![image](https://github.com/ewestrich/King-County-House-Sales/assets/131708046/59c07411-a207-4306-9e02-784fcbf5aad3)
+
+![image](https://github.com/ddcots24/King_County_Housing/assets/131708046/d81ec703-d1df-4f41-961f-cf2b8d33743a)
 
 
 I further narrowed the scope of our research to focus on the technology hub in downtown Seattle. In particular, I identified Amazon as the largest employer and point of interest to wanna-be buyers. The range was focused to be a 3-mile radius around Amazon Center. What was discovered was a strong correlation between the price of houses with the sqft_living. I was able to form a regression line to model the relationship. 
 
 After focusing on the correlation between square feet of living and price, I turned my attention to the number of bathrooms.  What was observed was that the number of bathrooms has a strong posotive correlation with the price of the house. However, the data is slightly skewed by the limited data points with houses beyond six bathrooms. 
 
-![image](https://github.com/ewestrich/King-County-House-Sales/assets/131708046/79be686d-b68b-451a-b985-7359e16b03ec)
+![image](https://github.com/ddcots24/King_County_Housing/assets/131708046/6b8f1996-f6ca-4305-9424-88c21f9214b0)
+
 
 
 ## Results
-I fit the following data into a multivariable linear regression model to establish a fairly accurate price guage, based upon features represented within the data. I achieved an R-square score of .63 indicating that our predicted value will fall with 63 percent accuracy.
+I fit the following data into a multivariable linear regression model to establish a fairly accurate price guage, based upon features represented within the data. I achieved an R-square score of .63 indicating that the predicted value will fall with 63 percent accuracy. The following visual further shows the effectiveness of predicting price by fitting a regression line between the actual and predicted price value. 
 
+![image](https://github.com/ddcots24/King_County_Housing/assets/131708046/328104c5-e0c5-4a91-a6f8-473ef03c7ee2)
 
-
-![asgrvad afcea sZ](https://github.com/ewestrich/King-County-House-Sales/assets/130884190/1434c4f9-d8ae-46b0-82fe-93816ec14025)
 
 ## Analysis of Model
-The model includes aspects of all numerical, ordinal, and nominal categories from our data frame and the influence of each category on our predicted price. About 63% of the variability observed in the sale price is explained by the regression model. The model is a predictor of house prices based on certain features in King County. Some coefficients to note that have an increase in house sale price include bathrooms, sqft_living, sqft_above, sqft_basement, sqft_patio, grade, condition, and view. The following visual further shows the effectiveness of predicting price by fitting a regression line between the actual and predicted price value. 
+The model includes aspects of all numerical, ordinal, and nominal categories from our data frame and the influence of each category on our predicted price. About 63% of the variability observed in the sale price is explained by the regression model. The model is a predictor of house prices based on certain features in King County. Some coefficients to note that have an increase in house sale price include bathrooms, sqft_living, sqft_above, sqft_basement, sqft_patio, grade, condition, and view. 
+
+## Recommendations
+
+Recommendations are as follows:
+1) Increase the square footage of living space by adding an extension to an existing house
+2) Purchase a less expensive home and then add bathrooms to add value to the house
