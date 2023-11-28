@@ -1,5 +1,5 @@
 # King_County_Housing
-Analysis of Housing Data in Kings County, Washington
+Analysis of Housing Data in King County, Washington
  
 ## Overview
 I have been tasked with analyzing the data on houses in King County, Washington. The goal is to help prospective buyers near Amazon HQ understand the housing market better. I did this by creating a predictive model of the sale price of houses, in King County, based on different features. After building and assesing the linear regression model, I determined that the features with the largest weight, and the strongest correlation to price, were square feet of living space and number of bathrooms.
