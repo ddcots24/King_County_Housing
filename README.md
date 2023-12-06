@@ -19,10 +19,9 @@ The majority of the dataset pertained to houses sold in King County, Washington,
 
 
 
-From the following graphic we were able to identify square feet above and square feet of living have a very high correlation of 90%. I took out square feet of living to prevent from overfitting my model.
+From the following graphic I was able to identify square feet above and square feet of living have a very high correlation of 90%. I took out square feet of living to prevent from overfitting my model.
 
-
-![image](https://github.com/ddcots24/King_County_Housing/assets/131708046/d81ec703-d1df-4f41-961f-cf2b8d33743a)
+![image](https://github.com/ddcots24/King_County_Housing/assets/131708046/a9a3cf71-5226-47d9-b2f2-d38c9b2da063)
 
 
 I further narrowed the scope of our research to focus on the technology hub in downtown Seattle. In particular, I identified Amazon as the largest employer and point of interest to wanna-be buyers. The range was focused to be a 3-mile radius around Amazon Center. What was discovered was a strong correlation between the price of houses with the sqft_living. I was able to form a regression line to model the relationship. 
