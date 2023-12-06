@@ -13,7 +13,7 @@ King County House Data:
 A data source that provided the following information; date, number of floors, waterfront property, greenbelt property, nuisance, view, condition, long, lat, grade, heat_source, sewer_system, sqft_garage, sqft_patio, yr_built,y r_renovated, address, price, bedrooms, bathrooms, sqft_living, sqft_lot, sqft_above, and sqft_basement. 
 
 ## Methods
-The majority of the dataset pertained to houses sold in King County, Washington, but there were several outliers that needed to be addressed. After focusing on just King County I performed a heatmap to show any correlations between the dependent features in my model. 
+The majority of the dataset pertained to houses sold in King County, Washington, but there were several outliers that needed to be addressed. After focusing on just King County I performed a heatmap to show any correlations between the independent features in my model. 
 
 ![image](https://github.com/ddcots24/King_County_Housing/assets/131708046/12a18675-31a1-46ab-8738-668929bd4a88)
 
