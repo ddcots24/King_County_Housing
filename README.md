@@ -15,13 +15,14 @@ A data source that provided the following information; date, number of floors, w
 ## Methods
 The majority of the dataset pertained to houses sold in King County, Washington, but there were several outliers that needed to be addressed. After focusing on just King County I performed a heatmap to show any correlations between the independent features in my model. 
 
-![image](https://github.com/ddcots24/King_County_Housing/assets/131708046/12a18675-31a1-46ab-8738-668929bd4a88)
+![image](https://github.com/ddcots24/King_County_Housing/assets/131708046/a9a3cf71-5226-47d9-b2f2-d38c9b2da063)
 
 
 
 From the following graphic I was able to identify square feet above and square feet of living have a very high correlation of 90%. I took out square feet of living to prevent from overfitting my model.
 
-![image](https://github.com/ddcots24/King_County_Housing/assets/131708046/a9a3cf71-5226-47d9-b2f2-d38c9b2da063)
+![image](https://github.com/ddcots24/King_County_Housing/assets/131708046/ed336190-c469-4061-bec8-e9cf9342d3e2)
+
 
 
 I further narrowed the scope of our research to focus on the technology hub in downtown Seattle. In particular, I identified Amazon as the largest employer and point of interest to wanna-be buyers. The range was focused to be a 3-mile radius around Amazon Center. What was discovered was a strong correlation between the price of houses with the sqft_living. I was able to form a regression line to model the relationship. 
